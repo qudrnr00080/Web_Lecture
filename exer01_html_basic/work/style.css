@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 20px  auto;
+    border: 2px solid #444;
+    width: 60%;
+    max-width: 700px;
+}
+
+div {
+    margin: 30px 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+hr {
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(25, 25, 255);
+}
+
+.header-h1 {
+    color: aliceblue;
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+
+.header-p {
+    color: aliceblue;
+    text-align: center;
+
+}
+
+.profile {
+    border-radius: 20px;
+    background-color: #eee;
+    display: flex;
+    border: 1px solid #d1d0d0;
+}
+
+.profile-image {
+    padding: 0;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    border: 5px solid #111111;
+    border-radius: 100%;
+
+}
+
+.profile-t {
+    padding-left: 20px;
+    line-height: 30px;
+}
+
+.myname {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.tech {
+    display: flex;
+    gap: 15px;
+}
+
+.tech1 {
+    background-color: aquamarine;
+    border-radius: 25px;
+    width: 60px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech2 {
+    background-color: rgb(197, 153, 238);
+    border-radius: 25px;
+    width: 60px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.tech3 {
+    background-color: pink;
+    border-radius: 25px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.tech4 {
+    background-color: rgb(147, 163, 242);
+    border-radius: 25px;
+    width: 60px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+h3 {
+    color: rgb(89, 0, 232);
+    text-align: left;
+}
+
+hr {
+    height: 2px;
+    background-color: rgb(89, 0, 232);
+    border: none;
+}
+
+.interest-tech {
+    margin-bottom: 20px;
+    background-color: #eee;
+}
+
+.introduce {
+    background-color: #eee;
+}
+
+.intro-p {
+    margin-top: 10px;
+    color: #585858;
+    padding: 10px 10px;
+}
+form {
+    margin: 20px 20px;
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+label {
+    display: inline-block;
+    width: 50px;
+}
+
+.contact-t {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact-n {
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: lightcoral;
+}
+
+.contact-e {
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: lightcyan;
+}
+
+.contact-button {
+    margin-top: 10px;
+    margin-left: 74px;
+    margin-top: 5px;
+    width: 80px;
+    background-color: rgb(62, 62, 62);
+    color: #eee;
+    border-radius: 5px;
+    border: none;
+}
+
+footer {
+    overflow: hidden;
+    background-color: rgb(40, 40, 40);
+    text-align: center;
+    color: #eee;
+}

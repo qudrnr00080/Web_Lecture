@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <h1 class="header-h1">MY PROFILE</h1>
@@ -13,39 +16,48 @@
 
     <div class="profile">
         <img src="image2.jpg" alt="이미지" class="profile-image">
-        <p class="myname">서병국</p>
-        <p class="mysubject">전공: 컴퓨터소프트웨어전공</p>
-        <p class="interest">관심분야: ? / ? / ?</p>
+        <div class="profile-t">
+            <p class="myname">서병국</p>
+            <p class="mysubject">전공: 컴퓨터소프트웨어전공</p>
+            <p class="interest">관심분야: C / Java / Web</p>
+        </div>
     </div>
 
     <div class="interest-tech">
         <h3>관심 기술</h3>
         <hr>
-        <span>
+        <div class="tech">
             <p class="tech1">HTML</p>
             <p class="tech2">CSS</p>
             <p class="tech3">JavaScript</p>
-            <p class="tech4">Git</p>
-        </span>
+            <p class="tech4">&nbsp;Git&nbsp;</p>
+        </div>
     </div>
 
     <div class="introduce">
         <h3>자기소개</h3>
         <hr>
-        <p class="intro-p">안녕</p>
+        <p class="intro-p">웹 프로그래밍을 공부하고 있습니다. HTML과 CSS를 사용하여 웹페이지
+            구조와 디자인을 구현하는 방법을 학습하고 있습니다. 다양한 CSS 속성과 선택자를 사용하여 
+            웹페이지의 디자인을 자유롭게 변경 할 수 있습니다. <br> <br>
+            앞으로 JavaScript와 React까지 학습하여 사용자와 상호작용할 수 있는 다양한 웹 서비스를 개발
+            하는 것이 목표입니다.
+        </p>
     </div>
 
-    <div class="contact">
+    <form class="contact">
         <h3>문의하기</h3>
         <hr>
-        이름
+        <span class="contact-t"><label>이름</label></span>
         <input type="text" placeholder="이름을 입력하세요" class="contact-n"> <br>
-        <input type="email" placeholder= "이메일을 입력하세요" class="contact-e"> <br>
-        <input type="button" value="문의하기" class="contact-button">
-    </div>
+        <span class="contact-t"><label>이메일</label></span>
+        <input type="email" placeholder="이메일을 입력하세요" class="contact-e"> <br>
+        <input type="submit" value="문의하기" class="contact-button">
+    </form>
 
     <footer>
         2026 Web Programming Practice
     </footer>
 </body>
+
 </html>
