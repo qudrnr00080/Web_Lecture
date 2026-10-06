@@ -1,0 +1,69 @@
+header {
+    background-color: rgb(24, 24, 150);
+    padding: 20px;
+}
+
+.h-h1 {
+    color: white;
+    text-align: center;
+}
+
+.h-p {
+    text-align: center;
+    color: white;
+}
+
+.box {
+    width:19.5%;
+    height: 50px;
+    background-color: blue;
+    float: left;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    margin: 0 1px;
+}
+
+.container {
+    padding-top: 1px;
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+    width: 60%;
+}
+
+h2 {
+    color: rgb(38, 38, 100);
+}
+.right {
+    width: 40%;
+    float: left;
+    background-color: lightblue;
+}
+
+.container2 {
+    overflow: hidden;
+}
+
+body {
+    background-color: #eee;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.left-box{
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: #eee;
+    width: 150px;
+    margin: 5px 10px; 
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
