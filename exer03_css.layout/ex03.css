@@ -1,0 +1,96 @@
+body {
+    background-color: #eee;
+    margin: 0;
+    
+}
+
+.PORTFOLIO {
+    background-color: rgb(138, 36, 36);
+    text-align: center;
+    color: #eee;
+    padding: 10px;
+    line-height: 10px;
+}
+
+.main-p {
+    font-size: 10px;
+}
+
+.container {
+    color: #eee;
+}
+.container span {
+    display: flex;
+    width: 100%;
+}
+
+.box {
+    box-sizing: border-box;
+    text-align:  center;
+    background-color: brown;
+    color: #eee;
+    width: 20%;
+    float: left;
+    border-right: 1px solid #eee;
+    height: 45px;
+    padding-top: 10px;
+}
+
+.left {
+    background-color: rgb(255, 217, 230);
+    float: left;
+    width: 20%;
+    height: 350px;
+    
+}
+
+.center {
+    padding: 10px 15px;
+    flex: none;
+    float: left;
+    height: 300px;
+    line-height: 5px;
+}
+
+.center-con-h {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.center-container{
+    border: 1px solid rgb(238, 177, 177);
+    background-color: rgb(253, 229, 233);
+    width: 600px;
+    margin-top: 20px;;
+}
+
+.c-p {
+    padding: 5px;
+}
+
+.center-head {
+    color: brown;
+}
+.right {
+    height: 350px;
+    float: right;
+    background-color: rgb(255, 217, 230);
+    width: 20%;
+}
+
+.right-head, .left-head {
+    color: brown;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.footer {
+    background-color: black;
+    color: #eee;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+p{}
