@@ -1,48 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="shellscript.js"></script>
-    <style>
-        h1 {
-            text-align: center;
-        }
-
-        body {
-            background-image: url(image/shellbackground.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        img {
-            float: left;
-            width: 500px;
-            height: 500px;
-        }
-
-        textarea {
-            margin-top: 100px;
-            width: 300px;
-            height: 200px;
-        }
-
-        #id {
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            h1 {
+                text-align: center;
+            }
             
-        }
-    </style>
+            body {
+                background-image: url(image/shellbackground.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            img {
+                float: left;
+                width: 500px;
+                height: 500px;
+            }
+            
+            textarea {
+                margin-top: 100px;
+                width: 300px;
+                height: 200px;
+            }
+            
+            #id {}
+            </style>
 </head>
 
 <body>
     <h1>마법의 소라고동</h1>
     <img src="image/Magic_shell.png" alt="">
-    <textarea name="" id="">마법의 소라고동이 답 할 내용</textarea>
-    <input type="text">
-    <button>줄 당기기</button>
+    <textarea id="shellresult">마법의 소라고동이 답 할 내용</textarea>
+    <form action="">
+        <input type="text" placeholder="여기에 질문하세요">
+        <button id="pull" type="submit">줄 당기기</button>
+    </form>
     <div id="back">
         <a href="Main.html"><button>돌아가기</button></a>
     </div>
+    <script src="shellscript.js"></script>
 </body>
 </body>
 
