@@ -4,44 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body {
-            background-image: url(image/book_back.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        img {
-            float: left;
-            width: 500px;
-            height: 500px;
-        }
-
-        textarea {
-            margin-top: 100px;
-            width: 300px;
-            height: 200px;
-        }
-
-       h1 {
-            text-align: center;
-        }
-
-        #open-book {
-            
-        }
-    </style>
+    <link rel="stylesheet" href="book.css">
 </head>
 <body>
     <h1>마법의 책</h1>
     <img src="image/book.png" alt="">
-    <textarea name="" id="">책이 답 할 내용</textarea>
+    <textarea id="bookresult" disabled style="background-color: white;">책이 답 할 내용</textarea>
     
     
     <input type="text" style="width: 300px; height: 300;"> <br>
-    <button id="open-book"  type="submit">책 펼치기</button>
+    <button id="open">책 펼치기</button>
     <div>
-        <a href="Main.html"><button>돌아가기</button></a>
+        <a href="Main.html" class="back"><button>돌아가기</button></a>
     </div>
+    <script src="bookscript.js"></script>
 </body>
 </html>

@@ -1,0 +1,31 @@
+ body {
+            background-image: url(image/book_back.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        img {
+            float: left;
+            width: 500px;
+            height: 500px;
+        }
+        
+        textarea {
+            margin-top: 100px;
+            width: 300px;
+            height: 200px;
+        }
+        
+        h1 {
+            text-align: center;
+
+        }
+        
+        #open {
+        
+        }
+
+        .back{
+            
+        }
+
